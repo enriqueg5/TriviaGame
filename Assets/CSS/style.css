@@ -1,0 +1,59 @@
+.overWatch{
+	display: none;
+}
+
+body{
+	background-image:url(https://s-media-cache-ak0.pinimg.com/736x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3.jpg);
+}
+
+header{
+	color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; 
+}
+
+header h1 {
+	font-size: 2.2em;
+}
+
+.startButton{
+	width:auto;
+	padding:8px;
+	margin:4px;
+	border: 3px solid rgba(0,0,0,.6);
+}
+.timeDisplay{
+	margin:5px;
+}
+
+.questionBox{
+	border-top: 3px solid rgba(0,0,0,.7);
+	width:100%;
+	height: auto;
+	padding:10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.questionBox h2{
+	font-size: 1.25em;
+}
+
+#buttonsDiv{
+	text-align: center;
+	border-top: 3px solid rgba(0,0,0,.7);
+	background-color: black;
+	width: 100%;
+	height:auto;
+}
+
+#buttonsDiv button{
+	padding:8px;
+	margin:6px;
+	border: 3px solid white ;
+}
+
+a:visited{
+	color: red;
+}
+a:-webkit-any-link{
+	text-decoration: none;
+}
